@@ -378,6 +378,7 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
+    hardware/qcom-caf/common \
     hardware/google/interfaces \
     hardware/google/pixel \
     hardware/qcom-caf/common/libqti-perfd-client \
