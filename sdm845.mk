@@ -130,10 +130,21 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl:32 \
     android.hardware.camera.provider@2.4-service \
+    android.hardware.camera.provider@2.6-service \
+    android.hardware.camera.provider@2.7-service \
     libdng_sdk.vendor \
     libgui_shim \
     libpiex_shim \
-    vendor.qti.hardware.camera.device@1.0.vendor
+    vendor.qti.hardware.camera.device@1.0.vendor \
+    vendor.qti.hardware.camera.device@2.0.vendor \
+    vendor.qti.hardware.camera.device@3.5.vendor \
+    vendor.qti.hardware.camera.device@3.6.vendor \
+    android.hardware.camera.device@1.0-impl \
+    android.hardware.camera.device@3.2-impl \
+    android.hardware.camera.device@3.3-impl \
+    android.hardware.camera.device@3.4-impl \
+    android.hardware.camera.device@3.5-impl \
+    android.hardware.camera.device@3.6-impl \
 
 # Common init scripts
 PRODUCT_PACKAGES += \
